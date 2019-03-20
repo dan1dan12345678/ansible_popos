@@ -1,2 +1,5 @@
+- name: Install python-psutil package
+  apt: name=python-psutil
+
 - name: Install arc theme
   apt: name=arc-theme
