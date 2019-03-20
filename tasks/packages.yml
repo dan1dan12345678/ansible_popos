@@ -9,14 +9,14 @@
       - virtualbox
       - oneboard
       
-   - name:run powertop
+   - name: run powertop
      tasks:
-      - name:run powertop
+      - name: run powertop
         shell: powertop -n
         
-    - name:run lm-sensors
+    - name: run lm-sensors
      tasks:
-      - name:run sensors-detect
-        shell: sensors-detect -y
+      - name: run sensors-detect
+       shell: sensors-detect -y
     
       
