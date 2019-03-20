@@ -1,0 +1,13 @@
+- hosts: localhost
+  become: true
+  tasks:
+  - name: Install packages
+    apt: name={{item}}
+    with_items:
+      - htop
+      - mc
+      - tmux
+      - lm-sensors
+      - tlp
+      - virtualbox
+      - oneboard
