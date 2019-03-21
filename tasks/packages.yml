@@ -8,15 +8,13 @@
       - tlp
       - virtualbox
       - oneboard
-      
+
    - name: run powertop
      tasks:
       - name: run powertop
         shell: powertop -n
-        
+
     - name: run lm-sensors
      tasks:
       - name: run sensors-detect
        shell: sensors-detect -y
-    
-      
